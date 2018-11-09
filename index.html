@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+      <h1 class="text-center">Login page</h1>
+      <div class="form-group col-xs-6">
+        <input type="text" class="form-control" placeholder="ex: Gerard" id="login-input" name="login" value="artignan">
+        <input type="text" class="form-control" placeholder="ex: soleil69" id="password-input" name="login" value="artignan">
+      </div>
+      <div class="form-group col-xs-6">
+        <button id="create-user-button" type="button" name="button" class="btn btn-danger col-xs-12">Créer</button>
+        <button id="get-list-button" type="button" name="button" class="btn btn-danger col-xs-12">Listes</button>
+        <button id="update-list-button" type="button" name="button" class="btn btn-danger col-xs-12">Update</button>
+      </div>
+      <div id="list-menu" class="btn-group-vertical col-xs-6" data-toggle="buttons">
+      </div>
+
+      <div id="data-displayer" class="btn-group-vertical col-xs-6" data-toggle="buttons">
+      </div>
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="app.js" charset="utf-8"></script>
+</html>
